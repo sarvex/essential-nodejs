@@ -2,7 +2,7 @@ const waitTime = 3000;
 console.log(`setting a ${waitTime / 1000} second delay`);
 const timerFinished = () => {
   clearInterval(interval);
-  console.log("done");
+  console.log('\ndone');
 };
 
 setTimeout(timerFinished, waitTime);
